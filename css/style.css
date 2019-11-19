@@ -5,8 +5,14 @@ html{
 }
 h1{
   text-align:center;
+  font-family: 'Monoton', cursive;
+  background: -webkit-linear-gradient(#75BBA7, #9FCC2E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
+h2{
+  font-family: 'IBM Plex Mono', monospace;
+}
 body{
   text-align:center;
 }
@@ -37,6 +43,9 @@ p{
 }
 .column{
   padding: 5px;
+}
+.results{
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 
