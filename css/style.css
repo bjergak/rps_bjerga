@@ -12,9 +12,11 @@ h1{
 }
 h2{
   font-family: 'IBM Plex Mono', monospace;
+    color: #75BBA7;
 }
 body{
   text-align:center;
+  background:#313628;
 }
 h3{
   padding-top: none;
@@ -46,6 +48,7 @@ p{
 }
 .results{
   font-family: 'IBM Plex Mono', monospace;
+  color: #75BBA7;
 }
 
 
