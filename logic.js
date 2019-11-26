@@ -32,23 +32,23 @@ var compare = function(choice1, choice2){
   }
   else if(choice1 === "rock"){
     if(choice2 === "scissors"){
-      return "Rock wins!";
+      return "Rock wins! Yay, you won!";
     }else{
       return "Paper wins. You are a disgrace to your family.";
     }
   }
   else if(choice1 === "paper"){
     if(choice2 === "rock"){
-      return "Paper wins!";
+      return "Paper wins! Hooray! You are the rock paper scissors master!";
     }else{
-      return "Scissors wins."
+      return "Scissors wins. You SHOULD feel terrible about yourself."
     }
   }
   else{
     if(choice2 === "paper"){
-      return "Scissors wins! You win."
+      return "Scissors wins! You win!"
     }else{
-      return "Rock wins! You lose."
+      return "Rock wins! You are terrible at this game. Quit while you're behind."
     }
 
   }
