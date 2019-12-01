@@ -12,6 +12,7 @@ h1{
 }
 h2{
   font-family: 'IBM Plex Mono', monospace;
+  font-size: 20px;
     color: #75BBA7;
 }
 body{
@@ -27,23 +28,45 @@ p{
 
 .rock-button{
   font-family: 'Monoton', cursive;
+  font-size: 20px;
   cursor:pointer;
+  background: #DD99BB;
+  border-radius: 10px;
+  padding: 5px;
+  border-color: #050609;
+  color: #050609;
 }
-.rock-button hover{
-  
+.rock-button:hover{
+  background:  #75BBA7;
+  color: #050609;
 }
 
 .paper-button{
   font-family: 'Monoton', cursive;
-  cursor: pointer;
+  cursor:pointer;
+  font-size: 20px;
+  background: #DD99BB;
+  border-radius: 10px;
+  padding: 5px;
+  border-color: #050609;
 }
-
-
+.paper-button:hover{
+  background:  #75BBA7;
+  color: #050609;
+}
 .scissors-button{
   font-family: 'Monoton', cursive;
-  cursor: pointer;
+  font-size: 20px;
+  cursor:pointer;
+  background: #DD99BB;
+  border-radius: 10px;
+  padding: 5px;
+  border-color: #050609;
 }
-
+.scissors-button:hover{
+  background:  #75BBA7;
+  color: #050609;
+}
 .row{
   display:flex;
   justify-content: space-evenly;
@@ -52,6 +75,7 @@ p{
   padding: 5px;
 }
 .results{
+  font-size: 12px;
   font-family: 'IBM Plex Mono', monospace;
   color: #75BBA7;
 }
