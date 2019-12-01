@@ -10,11 +10,11 @@ var game_result;
 function play(userChoice){
   var computerChoice = Math.random();
   if(computerChoice < 0.34 ){
-    computerChoice ="rock";
+    computerChoice ="Rock";
   }else if(computerChoice < 0.67){
-    computerChoice = "paper";
+    computerChoice = "Paper";
   }else{
-    computerChoice = "scissors";
+    computerChoice = "Scissors";
   }
   game_result = compare(userChoice, computerChoice);
   document.getElementById("compChoice").innerHTML = computerChoice;
@@ -30,22 +30,22 @@ var compare = function(choice1, choice2){
   if(choice1===choice2){
     return "The result is a tie!";
   }
-  else if(choice1 === "rock"){
-    if(choice2 === "scissors"){
+  else if(choice1 === "Rock"){
+    if(choice2 === "Scissors"){
       return "Rock wins! Yay, you won!";
     }else{
       return "Paper wins. You are a disgrace to your family.";
     }
   }
-  else if(choice1 === "paper"){
-    if(choice2 === "rock"){
+  else if(choice1 === "Paper"){
+    if(choice2 === "Rock"){
       return "Paper wins! Hooray! You are the rock paper scissors master!";
     }else{
       return "Scissors wins. You SHOULD feel terrible about yourself."
     }
   }
   else{
-    if(choice2 === "paper"){
+    if(choice2 === "Paper"){
       return "Scissors wins! You win!"
     }else{
       return "Rock wins! You are terrible at this game. Quit while you're behind."

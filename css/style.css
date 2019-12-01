@@ -17,7 +17,7 @@ h2{
 }
 body{
   text-align:center;
-  background: -webkit-linear-gradient(#5C164E, #050609);
+  background: -webkit-linear-gradient(#4B1240, #050609);
 }
 h3{
   padding-top: none;
@@ -34,11 +34,13 @@ p{
   border-radius: 10px;
   padding: 5px;
   border-color: #050609;
-  color: #050609;
+  color: #4B1240;
 }
 .rock-button:hover{
   background:  #75BBA7;
   color: #050609;
+  transform: scale(1.1);
+  transition-duration: 5ms;
 }
 
 .paper-button{
@@ -53,6 +55,8 @@ p{
 .paper-button:hover{
   background:  #75BBA7;
   color: #050609;
+  transform: scale(1.1);
+  transition-duration: 5ms;
 }
 .scissors-button{
   font-family: 'Monoton', cursive;
@@ -66,6 +70,8 @@ p{
 .scissors-button:hover{
   background:  #75BBA7;
   color: #050609;
+  transform: scale(1.1);
+  transition-duration: 5ms;
 }
 .row{
   display:flex;
