@@ -6,7 +6,7 @@ html{
 h1{
   text-align:center;
   font-family: 'Monoton', cursive;
-  background: -webkit-linear-gradient(#75BBA7, #9FCC2E);
+  background: -webkit-linear-gradient(#DD99BB, #E2FCEF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -16,7 +16,7 @@ h2{
 }
 body{
   text-align:center;
-  background:#313628;
+  background: -webkit-linear-gradient(#5C164E, #050609);
 }
 h3{
   padding-top: none;
@@ -26,16 +26,21 @@ p{
 }
 
 .rock-button{
-    cursor:pointer;
+  font-family: 'Monoton', cursive;
+  cursor:pointer;
+}
+.rock-button hover{
+  
 }
 
-
 .paper-button{
+  font-family: 'Monoton', cursive;
   cursor: pointer;
 }
 
 
 .scissors-button{
+  font-family: 'Monoton', cursive;
   cursor: pointer;
 }
 
